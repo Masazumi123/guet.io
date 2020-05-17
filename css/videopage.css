@@ -1,0 +1,121 @@
+.pageBanner{
+    width: 100%;
+    height: 3rem;
+    background: linear-gradient(to right, #014D88, #18659B);
+    text-align: center;
+}
+
+.pageBanner .wal::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: .6rem;
+    background: #fff;
+}
+
+.pageBanner .wal{
+    position: relative;
+    margin: 0 2rem;
+    height: 100%;
+}
+
+.wal .title{
+    margin: 0 auto;
+    color: #fff;
+}
+
+.wal .title h2{
+    font-size: .48rem;
+    margin: 0;
+    padding: 0;
+    padding-top: .6rem;
+}
+
+.wal .title p{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'raleway';
+    font-size: .3rem;
+}
+
+.wal .curr{
+    color: #fff;
+    font-size: .16rem;
+}
+
+.wal .curr a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.wal .curr a:hover{
+    color: cornflowerblue;
+}
+
+.wal .curr .fa-home{
+    color: #fff;
+}
+
+.wal .curr a:hover i{
+    color: cornflowerblue;
+}
+
+.video{
+    height: 8.08rem;
+    margin: 0 auto;
+    padding-top: .4rem;
+    max-width: 12.1rem;
+}
+
+.video .list{    
+    border-bottom: solid 1px #e1e1e1;
+}
+
+.video ul{
+    height: 6.808rem;
+    margin-left: -.43rem;   
+}
+
+.video ul li{
+    float: left;
+    width: 33.333%;
+    padding: 0 0 .13rem .43rem;
+}
+
+.video li a{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.video li a img{
+    width: 100%;
+}
+
+.video li a i{
+    position: absolute;
+    bottom: 35%;
+    left: 5%;
+}
+
+.video li a .name{
+    line-height: .3rem;
+    min-height: .96rem;
+    font-size: .22rem;
+    padding: .18rem 0;
+    color: black;
+}
+
+.video li a:hover{
+    text-decoration: none;
+}
+
+.video li a:hover .name{
+    color: #337AB7;
+}
+

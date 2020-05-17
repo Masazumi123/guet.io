@@ -1,0 +1,460 @@
+@font-face{
+    font-family: 'Yahei';
+    src:url(C:/Users/hasee/Downloads/simhei.ttf);
+}
+
+body{
+    font-family: 'Yahei';
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    margin: 0 2rem;
+}
+
+#headnav{
+    background: linear-gradient(to right, #014D88, #18659B);
+    font-size: .18rem;
+    border-radius: 0%;
+    margin-bottom: 0;
+}
+
+#headnav .container-fluid{
+    padding: 0 0 0 -.2rem;
+}
+
+#headnav .navbar-header {
+    float: none;
+}
+
+#headnav .navbar-header a{
+    position: absolute;
+    width: 4.42rem;
+    height: 100%;
+    left: .1rem;
+    background: url(https://www.guet.edu.cn/images/logo.png) left center no-repeat;
+    background-size: 100%;
+}
+
+#headnavbar ul{
+    height: .92rem;
+}
+
+#headnavbar ul li{
+    height: 100%;
+}
+
+#headnavbar li>a{
+    height: 100%;
+    color: #fff;
+    line-height: .32rem;
+    padding-top: .30rem;
+}
+
+header .container-fluid{
+    padding: 0;
+}
+
+header>.container-fluid .con-center ul li a{
+    display: flex;
+    flex-direction: column;
+    font-size: .16rem;
+    letter-spacing: .02rem;   
+}
+
+.con-center li{
+    border-right: .01rem #E5E5E5 solid;
+}
+
+.con-center .dropdown-menu>li>a{
+    color: #337AB7;
+}
+
+.con-center .dropdown:hover .dropdown-menu{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+#pcarousel{
+    margin: 0 auto;
+    padding: .2rem;
+    width: 81%;
+}
+
+#pcarousel .carousel-control{
+    background-image: linear-gradient(to right,rgba(0,0,0,.0000) 0,rgba(0,0,0,0) 100%);
+
+}
+
+#pcarousel a .faleft{
+    color: #1f1f1f;
+    margin-top: 180%;
+    margin-left: -70%;
+}
+
+#pcarousel a .faright{
+    color: #1f1f1f;
+    margin-top: 180%;
+    margin-left: 70%;
+}
+
+#announcement{
+    position: relative;
+    width: 10rem;
+    padding: 0;
+    margin: .2rem auto;
+}
+
+#announcement .announ{
+    width: 6.5rem;
+    float: left;
+}
+
+#announcement .title{
+    position: relative;
+    height: .5rem;
+}
+
+#announcement .title h3{
+    margin: 0;
+    margin: .15rem 0 .15rem;
+}
+
+#announcement .announ li{
+    position: relative;
+    width: 100%;
+    height: .77rem;
+    border-bottom: .01rem #E5E5E5 solid;
+}
+
+#announcement .announ ul li .time{
+    position: absolute;
+    text-align: center;
+    font-size: .14rem;
+    left: .14rem;
+    top: .04rem;
+}
+
+#announcement .announ ul li .time div{
+    font-size: .24rem;
+}
+
+#announcement .announ ul li .name{
+    position: absolute;
+    text-align: left;
+    font-size: .20rem;
+    right: 0;
+    top: .15rem;
+    left: 0;
+    padding-left: .8rem;
+}
+
+#announcement .news{
+    width: 3rem;
+    height: 3.75rem;
+    border: .01rem #E5E5E5 solid;
+    border-top: .01rem #337AB7 solid;
+    float: right;
+    padding: 0 .25rem;
+}
+
+#announcement .news li{
+    position: relative;
+    width: 100%;
+    height: .76rem;
+    border-bottom: .01rem #E5E5E5 solid;
+}
+
+#announcement .news ul li .time{
+    position: absolute;
+    text-align: center;
+    font-size: .14rem;
+    left: 0;
+}
+
+#announcement .news ul li .time div{
+    font-size: .24rem;
+}
+
+#announcement .news ul li .name{
+    position: absolute;
+    height: .54rem;
+    text-align: center;
+    font-size: .15rem;
+    right: 0;
+    top: .08rem;
+    left: .5rem;
+    
+}
+
+#announcement .more{
+    position: absolute;
+    right: 0rem;
+    top: 0;
+    color: black;
+}
+
+#intro .back{
+    position: relative;
+    width: 100%;
+    height: 3.28rem;
+    margin: 0 auto;
+    background: url(../images/back.png) no-repeat center;
+    background-size: 100% 100%;
+}
+
+#intro .intro{
+    position: absolute;
+    color: #fff;
+    width: 7rem;
+    font-size: .2rem;
+    margin: 0 1.5rem;
+    padding-top: .01rem;
+}
+
+#intro .video{
+    position: absolute;
+    width: 4.2rem;
+    height: 2.8rem;
+    right: 2rem;
+    top: 15%;
+    bottom: auto;
+}
+
+#intro video{
+    width: 100%;
+}
+
+#school-special{
+    width: 80%;
+    height: 4.5rem;
+    padding: 0;
+    margin: 0 3rem;
+    padding-top: .1rem;
+}
+
+#school-special .school{
+    position: absolute;
+}
+
+#school-special .title{
+    position: relative;
+    width: 1.5rem;
+    height: .5rem;
+}
+
+#school-special .title a{
+    color: black;
+    text-decoration: none;
+}
+
+#school-special .title a:hover{
+    color: #337AB7;
+}
+
+#school-special .title h3{
+    margin: 0;
+    margin: .15rem 0 .15rem;
+}
+
+#swiper1{
+    position: relative;
+    width: 6.3rem;
+    height: 3.54rem;
+}
+
+#swiper1 .swiper-wrapper .swiper-slide img{
+    position: absolute;
+    width: 100%;
+}
+
+.btn{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.btn i{
+    margin-top: 1.4rem;
+}
+
+.page-out{
+    position: relative;
+}
+
+.swiper-pagination-bullet{
+    width: .12rem;
+    height: .12rem;
+    margin-left: .03rem;
+    margin-right: .03rem;
+}
+
+#school-special .special{
+    position: absolute;
+    width: 6.3rem;
+    height: 4.3rem;
+    right: 5%;
+}
+
+.special .spc-box{
+    width: 2.5rem;
+    height: 4rem;
+}
+
+.special .spc-box ul{
+    height: 3.74rem;
+}
+
+.special .spc-box ul li{
+    float: left;
+    width: 1.2rem;
+    height: .65rem;
+    text-align: center;
+    margin-bottom: .74rem;
+}
+
+.special .spc-box li a{
+    display: block;
+}
+
+.special .spc-box li .item{
+    width: 54px;
+    height: 54px;
+    background-image: url(../images/img-icons.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: all 0.3s ease 0s;
+}
+
+.special .spc-box li a:hover{
+    text-decoration: none;
+}
+
+.special .spc-box li a span{
+    color: #1f1f1f;
+}
+
+.special .spc-box li a:hover span{
+    color: #337AB7;
+}
+
+.special .spc-box li a .iitem1{
+    background-position: 0 0 !important;
+}
+
+.special .spc-box li .item1:hover .iitem1{
+    background-position: 0 -54px !important;
+}
+
+.special .spc-box li a .iitem2{
+    background-position: 0 -108px !important;
+}
+
+.special .spc-box li .item2:hover .iitem2{
+    background-position: 0 -162px !important;
+}
+
+.special .spc-box li a .iitem3{
+    background-position: 0 -216px !important;
+}
+
+.special .spc-box li .item3:hover .iitem3{
+    background-position: 0 -270px !important;
+}
+
+.special .spc-box li a .iitem4{
+    background-position: 0 -324px !important;
+}
+
+.special .spc-box li .item4:hover .iitem4{
+    background-position: 0 -378px !important;
+}
+
+.special .spc-box li a .iitem5{
+    background-position: 0 -540px !important;
+}
+
+.special .spc-box li .item5:hover .iitem5{
+    background-position: 0 -594px !important;
+}
+
+.special .spc-box li a .iitem6{
+    background-position: 0 -756px !important;
+}
+
+.special .spc-box li .item6:hover .iitem6{
+    background-position: 0 -810px !important;
+}
+
+footer{
+    margin-top: .2rem;
+    width: 100%;
+    height: 4rem;
+    background: url(../images/content-footer.png) no-repeat center;
+    background-size: cover;
+    background-color: #26324A;
+}
+
+#foot{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    padding: 0 3rem;
+}
+
+#foot .logobg{
+    height: 1rem;
+}
+
+#foot .logobg a{
+    position: absolute;
+    width: 4.42rem;
+    height: 1rem;
+    top: .5rem;
+    background: url(https://www.guet.edu.cn/images/logo.png) no-repeat;
+}
+
+#foot .msg{
+    height: 2.3rem;
+    padding-top: .5rem;
+    font-size: .18rem;
+    color: #fff;
+}
+
+#foot::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: .88rem;
+    background-color: rgba(1, 77, 136,.5);
+}
+
+#foot .info{
+    font-size: .16rem;
+    color: #fff;
+}
+
+#foot .link{
+    position: absolute;
+    width: 1.6rem;
+    height: .4rem;
+    right: 15%;
+    bottom: 7%;
+}
+
+#foot button{
+    border-radius: 0;
+}
+
+#foot .link ul{
+    border-radius: 0;
+}

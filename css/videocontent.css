@@ -1,0 +1,76 @@
+.pageShowHead{
+    width: 100%;
+    height: 2rem;
+    background: linear-gradient(to right, #014D88, #18659B);
+}
+
+.pageShowHead .wal{
+    position: relative;
+    margin: 0 2rem;
+}
+
+.wal .pageNow{
+    position: absolute;
+    top: 0.1rem;
+    color: #fff;
+}
+
+.wal .pageNow a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.wal .pageNow a:hover{
+    color: #337AB7;
+}
+
+.wal .title::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: .35rem;
+    width: .05rem;
+    height: 100%;
+    background: url(../images/img5.jpg) center no-repeat;
+}
+
+.wal .title{
+    position: relative;
+    max-width: 10rem;
+    margin: 0 auto;
+    min-height: .83rem;
+    padding: .05rem 0 .05rem .45rem;
+    color: #fff;
+}
+
+.wal .title h2{
+    font-size: .32rem;
+    padding-left: .45rem;
+}
+
+.wal .title p{
+    font-size: .16rem;
+    font-family: 'raleway';
+    font-weight: bold;
+    padding-left: .45rem;
+}
+
+.video-content{
+    width: 100%;
+    margin: 0 2rem;
+}
+
+.video-content .videoNow{
+    width: 12.8rem;
+    margin-top: .1rem;
+    margin-left: 1.115rem;
+}
+
+.video-content p{
+    font-size: .22rem;
+}
+
+.video-content video {
+    width: 1280px;
+    height: 720px;
+}
